@@ -8,82 +8,49 @@
 </head>
 <body>
 
-    <nav class="main-nav">
-        <a href="#inicio" class="nav-logo-text">
-            EL <span class="large">ZAPATO</span> DE <span class="large">TERESA</span>
-        </a>
-        <div class="nav-right-container">
-            <ul class="nav-links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#resena-investigativa">Reseña Investigativa</a></li>
-                <li><a href="#guion-literario">Guion Literario</a></li>
-                <li><a href="#inspiracion">Inspiración</a></li>
-                <li><a href="#filminuto">Filminuto</a></li>
-            </ul>
-            <button id="audio-control" title="Controlar audio">
-                <svg id="icon-unmuted" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
-                <svg id="icon-muted" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
-            </button>
-        </div>
-    </nav>
+    <div class="main-content">
+        <main class="slider-container">
 
-    <main>
-        <section id="inicio">
-            <img src="imagenes/portada.png" alt="Portada del filminuto El Zapato de Teresa">
-        </section>
+            <div class="slide" id="inicio">
+                <div class="slide-content">
+                    <img src="imagenes/portada.png" alt="Portada del filminuto El Zapato de Teresa">
+                </div>
+            </div>
 
-        <section id="resena-investigativa">
-            <div class="container">
-                <h2>Reseña Investigativa</h2>
-                <div class="newspaper-layout">
-                    
-                    <div class="clipping">
-                        <h3>Los Desaparecidos del Palacio de Justicia: Memoria y Búsqueda de Verdad</h3>
-                        <p class="quote">“El 6 de noviembre de 1985 el M-19 tomó el Palacio de Justicia en Bogotá. La fuerza pública respondió con una operación de retoma que derivó en la destrucción del edificio, numerosas muertes y varias desapariciones que, hasta hoy, generan demandas de verdad y justicia.”</p>
-                        <div class="clipping-disappeared-list">
-                            <h3>La Desaparición Forzada: Voces que no Regresaron</h3>
-                            <p>Los desaparecidos, a causa de las fuerzas militares, fueron 12: 7 trabajadores de la cafetería, 4 visitantes ocasionales y 1 integrante del M-19.</p>
-                            <h4>Empleados de la Cafetería</h4>
-                            <ul>
-                                <li>Carlos Augusto Rodríguez Vera (Administrador)</li>
-                                <li>David Suspes Celis (Empleado)</li>
-                                <li>Bernardo Beltrán Hernández (Mesero)</li>
-                                <li>Héctor Jaime Beltrán Fuentes (Mesero)</li>
-                                <li>Cristina del Pilar Guarín Cortés (Cajera)</li>
-                                <li>Lucy Amparo Oviedo Bonilla (Empleado)</li>
-                                <li>Ana Rosa Castiblanco Torres (Oficios varios)</li>
-                            </ul>
-                             <h4>Visitantes/Ocasionales</h4>
-                             <ul>
-                                <li>Luz Mary Portela León (Visitante)</li>
-                                <li>Gloria Stella Lizarazo Figueroa (Visitante)</li>
-                                <li>Norma Constanza Esguerra Forero (Visitante, estudiante)</li>
-                                <li>Gloria Anzola de Lanao (Visitante, ejecutiva)</li>
-                             </ul>
-                             <h4>Miembro del M-19</h4>
-                             <ul>
-                                <li>Irma Franco Pineda (Integrante M-19)</li>
-                             </ul>
+            <div class="slide" id="resena-investigativa">
+                <div class="slide-content">
+                    <h2>Reseña Investigativa</h2>
+                    <div class="newspaper-layout">
+                        <div class="clipping">
+                            <h3>Los Desaparecidos del Palacio de Justicia: Memoria y Búsqueda de Verdad</h3>
+                            <p class="quote">“El 6 de noviembre de 1985 el M-19 tomó el Palacio de Justicia en Bogotá. La fuerza pública respondió con una operación de retoma que derivó en la destrucción del edificio, numerosas muertes y varias desapariciones que, hasta hoy, generan demandas de verdad y justicia.”</p>
+                            <div class="clipping-disappeared-list">
+                                <h3>La Desaparición Forzada: Voces que no Regresaron</h3>
+                                <p>Los desaparecidos, a causa de las fuerzas militares, fueron 12: 7 trabajadores de la cafetería, 4 visitantes ocasionales y 1 integrante del M-19.</p>
+                                <h4>Empleados de la Cafetería</h4>
+                                <ul><li>Carlos Augusto Rodríguez Vera (Administrador)</li><li>David Suspes Celis (Empleado)</li><li>Bernardo Beltrán Hernández (Mesero)</li><li>Héctor Jaime Beltrán Fuentes (Mesero)</li><li>Cristina del Pilar Guarín Cortés (Cajera)</li><li>Lucy Amparo Oviedo Bonilla (Empleado)</li><li>Ana Rosa Castiblanco Torres (Oficios varios)</li></ul>
+                                <h4>Visitantes/Ocasionales</h4>
+                                <ul><li>Luz Mary Portela León (Visitante)</li><li>Gloria Stella Lizarazo Figueroa (Visitante)</li><li>Norma Constanza Esguerra Forero (Visitante, estudiante)</li><li>Gloria Anzola de Lanao (Visitante, ejecutiva)</li></ul>
+                                <h4>Miembro del M-19</h4>
+                                <ul><li>Irma Franco Pineda (Integrante M-19)</li></ul>
+                            </div>
+                        </div>
+                        <div class="clipping">
+                            <h3>Memoria, Resistencia y Verdad</h3>
+                            <p>Las familias de los desaparecidos crearon redes de apoyo para exigir justicia, documentando cada avance en las investigaciones y manteniendo viva la memoria de sus seres queridos.</p>
+                            <p>Con el paso de los años, distintas instituciones han aportado piezas clave a la verdad, como:</p>
+                            <ul><li><strong>Sentencias Judiciales:</strong> En 2014, la Corte Interamericana de Derechos Humanos (Corte IDH) responsabilizó al Estado colombiano por las desapariciones forzadas y ejecuciones extrajudiciales durante la retoma del Palacio de Justicia.</li><li><strong>Investigaciones Forenses:</strong> La Fiscalía General de la Nación, con apoyo del Grupo de Antropología Forense, ha exhumado y analizado restos óseos. En algunos casos se han logrado identificaciones, pero también se han documentado errores graves en la entrega de restos a familiares.</li><li><strong>Archivos Desclasificados:</strong> La Comisión de la Verdad reveló documentos militares que confirman la custodia de varias de las víctimas al salir con vida del Palacio. Estos archivos, conocidos como “las cajas negras de la desaparición”, muestran que hubo ocultamiento de información y manipulación de registros.</li></ul>
+                            <h3 style="margin-top: 2rem;">Avances y Noticias Recientes</h3>
+                            <p>Las investigaciones forenses y judiciales han permitido esclarecer parcialmente el destino de algunos desaparecidos del Palacio de Justicia. Hasta el momento, se han identificado los restos de: Cristina del Pilar Guarín, Héctor Jaime Beltrán Fuentes, Jaime Beltrán Hernández, Ana Rosa Castiblanco y Luz Mary Portela.</p><p>Según la Corte Interamericana de Derechos Humanos (CIDH), de las 11 víctimas oficialmente reconocidas, 6 han sido ubicadas, mientras que 5 continúan desaparecidas, manteniendo abierta la incertidumbre para sus families y el reclamo de justicia.</p><p>Estos hallazgos son fruto de años de trabajo forense y de la lucha persistente de los familiares, aunque aún queda camino por recorrer para esclarecer plenamente lo sucedido.</p>
                         </div>
                     </div>
+                </div>
+            </div>
 
-                    <div class="clipping">
-                        <h3>Memoria, Resistencia y Verdad</h3>
-                        <p>Las familias de los desaparecidos crearon redes de apoyo para exigir justicia, documentando cada avance en las investigaciones y manteniendo viva la memoria de sus seres queridos.</p>
-                        <p>Con el paso de los años, distintas instituciones han aportado piezas clave a la verdad, como:</p>
-                        <ul>
-                            <li><strong>Sentencias Judiciales:</strong> En 2014, la Corte Interamericana de Derechos Humanos (Corte IDH) responsabilizó al Estado colombiano por las desapariciones forzadas y ejecuciones extrajudiciales durante la retoma del Palacio de Justicia.</li>
-                            <li><strong>Investigaciones Forenses:</strong> La Fiscalía General de la Nación, con apoyo del Grupo de Antropología Forense, ha exhumado y analizado restos óseos. En algunos casos se han logrado identificaciones, pero también se han documentado errores graves en la entrega de restos a familiares.</li>
-                            <li><strong>Archivos Desclasificados:</strong> La Comisión de la Verdad reveló documentos militares que confirman la custodia de varias de las víctimas al salir con vida del Palacio. Estos archivos, conocidos como “las cajas negras de la desaparición”, muestran que hubo ocultamiento de información y manipulación de registros.</li>
-                        </ul>
-                        <h3 style="margin-top: 2rem;">Avances y Noticias Recientes</h3>
-                        <p>Las investigaciones forenses y judiciales han permitido esclarecer parcialmente el destino de algunos desaparecidos del Palacio de Justicia. Hasta el momento, se han identificado los restos de: Cristina del Pilar Guarín, Héctor Jaime Beltrán Fuentes, Jaime Beltrán Hernández, Ana Rosa Castiblanco y Luz Mary Portela.</p>
-                        <p>Según la Corte Interamericana de Derechos Humanos (CIDH), de las 11 víctimas oficialmente reconocidas, 6 han sido ubicadas, mientras que 5 continúan desaparecidas, manteniendo abierta la incertidumbre para sus families y el reclamo de justicia.</p>
-                        <p>Estos hallazgos son fruto de años de trabajo forense y de la lucha persistente de los familiares, aunque aún queda camino por recorrer para esclarecer plenamente lo sucedido.</p>
-                    </div>
-                    
-                    <div class="clipping references-clipping" style="grid-column: 1 / -1;">
-                        <h3>Referencias</h3>
+            <div class="slide" id="referencias">
+                <div class="slide-content">
+                    <h2>Referencias</h2>
+                    <div class="references-clipping">
                         <ul>
                             <li>Centro Nacional de Memoria Histórica. (2015, 5 de noviembre). 30 años del Palacio de Justicia. Exigiendo justicia y verdad [Micrositio]. https://centrodememoriahistorica.gov.co/micrositios/palacio-de-justicia-30-anos/</li>
                             <li>Comisión para el Esclarecimiento de la Verdad, la Convivencia y la No Repetición (CEV). (s/f). Caso: Palacio de Justicia. https://www.comisiondelaverdad.co/caso-palacio-de-justicia</li>
@@ -93,181 +60,175 @@
                             <li>El Tiempo. A 34 años, Estado sigue sin hallar a cinco desaparecidos del Palacio. https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/los-desaparecidos-del-palacio-de-justicia-que-aun-no-han-sido-encontrados-431060</li>
                         </ul>
                     </div>
-
                 </div>
             </div>
-        </section>
-        
-        <section id="guion-literario">
-             <div class="container">
-                <h2>Guion Literario</h2>
-                <div class="script-body">
+            
+            <div class="slide" id="guion-literario">
+                <div class="slide-content">
+                    <h2>Guion Literario</h2>
                     <div class="script-page-container">
                          <div class="script-scene scene-1">
-                            <h3 class="script-scene-title">Escena 1: La Cafetería</h3>
-                            <h4 class="script-section-label encabezado-label">Encabezado</h4>
-                            <div class="script-slugline">INT. CAFETERÍA PALACIO DE JUSTICIA - DÍA (11:30 AM)</div>
-                            <h4 class="script-section-label resena-label">Reseña</h4>
-                            <div class="script-action-wrapper">
-                                <p class="script-action">La pantalla está en negro con un texto: BOGOTÁ, 6 DE NOVIEMBRE DE 1985.</p>
-                                <p class="script-action">Desde una perspectiva baja que solo capta los pies, vemos a la empleada caminar hacia la mesa de una cliente. Tienen un corto cruce de palabras. De vuelta, una ráfaga de tiros la asusta, anunciando la toma.</p>
-                            </div>
-                            <h4 class="script-section-label personajes-label">Personajes</h4>
-                            <div class="script-character-list">
-                                <p>TERESA (49 años) - Empleada</p>
-                                <p>FANNY (41 años) - Cliente</p>
-                            </div>
-                            <h4 class="script-section-label dialogo-label">Diálogo</h4>
-                            <div class="script-dialogue-wrapper">
-                                <div class="script-character-name">TERESA</div><div class="script-dialogue">Señora Fanny, ¿qué tal el tinto?</div>
-                                <div class="script-character-name">FANNY</div><div class="script-dialogue">Muy bueno, Teresita, gracias.</div>
-                            </div>
+                            <h3 class="script-scene-title">Escena 1: La Cafetería</h3><h4 class="script-section-label">Encabezado</h4><div class="script-slugline">INT. CAFETERÍA PALACIO DE JUSTICIA - DÍA (11:30 AM)</div><h4 class="script-section-label">Reseña</h4><div class="script-action-wrapper"><p>La pantalla está en negro con un texto: BOGOTÁ, 6 DE NOVIEMBRE DE 1985.</p><p>Desde una perspectiva baja que solo capta los pies, vemos a la empleada caminar hacia la mesa de una cliente. Tienen un corto cruce de palabras. De vuelta, una ráfaga de tiros la asusta, anunciando la toma.</p></div><h4 class="script-section-label">Personajes</h4><div class="script-character-list"><p>TERESA (49 años) - Empleada</p><p>FANNY (41 años) - Cliente</p></div><h4 class="script-section-label">Diálogo</h4><div class="script-dialogue-wrapper"><div class="script-character-name">TERESA</div><div class="script-dialogue">Señora Fanny, ¿qué tal el tinto?</div><div class="script-character-name">FANNY</div><div class="script-dialogue">Muy bueno, Teresita, gracias.</div></div>
                         </div>
                         <div class="script-scene scene-2">
-                             <h3 class="script-scene-title">Escena 2: Buscando la Salida</h3>
-                            <h4 class="script-section-label encabezado-label">Encabezado</h4>
-                            <div class="script-slugline">INT. PASILLO DEL PALACIO - DÍA (11:42 AM)</div>
-                            <h4 class="script-section-label resena-label">Reseña</h4>
-                            <div class="script-action-wrapper">
-                                <p class="script-action">El foco sigue en los pies de la empleada, que se mueven veloces sobre documentos esparcidos. Se escucha su respiración agitada y el palpitar de su corazón. Unas botas de guerrillero le cortan el paso.</p>
-                            </div>
-                            <h4 class="script-section-label personajes-label">Personajes</h4>
-                            <div class="script-character-list">
-                                <p>TERESA (49 años) - Empleada</p>
-                                <p>GUERRILLERO (35 años) - Captor</p>
-                            </div>
-                            <h4 class="script-section-label dialogo-label">Diálogo</h4>
-                            <div class="script-dialogue-wrapper">
-                                <div class="script-character-name">GUERRILLERO</div><div class="script-dialogue">¿Y usted para dónde va?</div>
-                                <div class="script-character-name">TERESA</div><div class="script-dialogue">No me haga nada, señor.</div>
-                            </div>
+                             <h3 class="script-scene-title">Escena 2: Buscando la Salida</h3><h4 class="script-section-label">Encabezado</h4><div class="script-slugline">INT. PASILLO DEL PALACIO - DÍA (11:42 AM)</div><h4 class="script-section-label">Reseña</h4><div class="script-action-wrapper"><p>El foco sigue en los pies de la empleada, que se mueven veloces sobre documentos esparcidos. Se escucha su respiración agitada y el palpitar de su corazón. Unas botas de guerrillero le cortan el paso.</p></div><h4 class="script-section-label">Personajes</h4><div class="script-character-list"><p>TERESA (49 años) - Empleada</p><p>GUERRILLERO (35 años) - Captor</p></div><h4 class="script-section-label">Diálogo</h4><div class="script-dialogue-wrapper"><div class="script-character-name">GUERRILLERO</div><div class="script-dialogue">¿Y usted para dónde va?</div><div class="script-character-name">TERESA</div><div class="script-dialogue">No me haga nada, señor.</div></div>
                         </div>
                         <div class="script-scene scene-3">
-                           <h3 class="script-scene-title">Escena 3: Rehén</h3>
-                            <h4 class="script-section-label encabezado-label">Encabezado</h4>
-                            <div class="script-slugline">INT. OFICINA OSCURA - NOCHE (08:43 PM)</div>
-                            <h4 class="script-section-label resena-label">Reseña</h4>
-                            <div class="script-action-wrapper">
-                                <p class="script-action">A ras de suelo, vemos los pies de la empleada, ahora una rehén. Su leve agitación delata el miedo. Las botas del guerrillero que la custodia entran y salen de escena. De una radio lejana se oye un partido y la voz frustrada del guerrillero.</p>
-                            </div>
-                            <h4 class="script-section-label personajes-label">Personajes</h4>
-                            <div class="script-character-list">
-                                <p>TERESA (49 años) - Rehén</p>
-                                <p>GUERRILLERO (35 años) - Custodio</p>
-                            </div>
-                            <h4 class="script-section-label dialogo-label">Diálogo</h4>
-                            <div class="script-dialogue-wrapper">
-                                <div class="script-character-name">GUERRILLERO</div><div class="script-dialogue">¿Pero qué mierda es esto? Quitan las noticias por un puto partido, vamos a ver quién se ríe al final.</div>
-                            </div>
+                           <h3 class="script-scene-title">Escena 3: Rehén</h3><h4 class="script-section-label">Encabezado</h4><div class="script-slugline">INT. OFICINA OSCURA - NOCHE (08:43 PM)</div><h4 class="script-section-label">Reseña</h4><div class="script-action-wrapper"><p>A ras de suelo, vemos los pies de la empleada, ahora una rehén. Su leve agitación delata el miedo. Las botas del guerrillero que la custodia entran y salen de escena. De una radio lejana se oye un partido y la voz frustrada del guerrillero.</p></div><h4 class="script-section-label">Personajes</h4><div class="script-character-list"><p>TERESA (49 años) - Rehén</p><p>GUERRILLERO (35 años) - Custodio</p></div><h4 class="script-section-label">Diálogo</h4><div class="script-dialogue-wrapper"><div class="script-character-name">GUERRILLERO</div><div class="script-dialogue">¿Pero qué mierda es esto? Quitan las noticias por un puto partido, vamos a ver quién se ríe al final.</div></div>
                         </div>
                         <div class="script-scene scene-4">
-                            <h3 class="script-scene-title">Escena 4: Retoma</h3>
-                            <h4 class="script-section-label encabezado-label">Encabezado</h4>
-                            <div class="script-slugline">INT. OFICINA OSCURA - DÍA (02:14 PM)</div>
-                            <h4 class="script-section-label resena-label">Reseña</h4>
-                            <div class="script-action-wrapper">
-                                <p class="script-action">Al día siguiente, una explosión estremece el lugar. En la radio se oye una orden. Las botas del guerrillero, desorientado, abandonan el lugar. Los pies de la rehén, con manos atadas, se levantan para escapar.</p>
-                            </div>
-                            <h4 class="script-section-label personajes-label">Personajes</h4>
-                            <div class="script-character-list">
-                                <p>TERESA (49 años) - Rehén</p>
-                                <p>GUERRILLERO (35 años) - Custodio</p>
-                                <p>COMANDANTE</p>
-                            </div>
-                            <h4 class="script-section-label dialogo-label">Diálogo</h4>
-                            <div class="script-dialogue-wrapper">
-                                <div class="script-character-name">COMANDANTE</div><div class="script-dialogue">A todas las unidades, se metieron los tanques. Abandonen todo.</div>
-                            </div>
+                            <h3 class="script-scene-title">Escena 4: Retoma</h3><h4 class="script-section-label">Encabezado</h4><div class="script-slugline">INT. OFICINA OSCURA - DÍA (02:14 PM)</div><h4 class="script-section-label">Reseña</h4><div class="script-action-wrapper"><p>Al día siguiente, una explosión estremece el lugar. En la radio se oye una orden. Las botas del guerrillero, desorientado, abandonan el lugar. Los pies de la rehén, con manos atadas, se levantan para escapar.</p></div><h4 class="script-section-label">Personajes</h4><div class="script-character-list"><p>TERESA (49 años) - Rehén</p><p>GUERRILLERO (35 años) - Custodio</p><p>COMANDANTE</p></div><h4 class="script-section-label">Diálogo</h4><div class="script-dialogue-wrapper"><div class="script-character-name">COMANDANTE</div><div class="script-dialogue">A todas las unidades, se metieron los tanques. Abandonen todo.</div></div>
                         </div>
                         <div class="script-scene scene-5">
-                            <h3 class="script-scene-title">Escena 5: Falsa Esperanza</h3>
-                            <h4 class="script-section-label encabezado-label">Encabezado</h4>
-                            <div class="script-slugline">INT. PASILLO DEL PALACIO - DÍA (02:20 PM)</div>
-                            <h4 class="script-section-label resena-label">Reseña</h4>
-                             <div class="script-action-wrapper">
-                                <p class="script-action">La cámara sigue los pies de Teresa buscando una salida. Es interceptada por un soldado que la guía a una aparente salvación. La escena se corta a negro y sobre la oscuridad aparece el texto final: "TERESA NUNCA VOLVIÓ A CASA."</p>
+                            <h3 class="script-scene-title">Escena 5: Falsa Esperanza</h3><h4 class="script-section-label">Encabezado</h4><div class="script-slugline">INT. PASILLO DEL PALACIO - DÍA (02:20 PM)</div><h4 class="script-section-label">Reseña</h4><div class="script-action-wrapper"><p>La cámara sigue los pies de Teresa buscando una salida. Es interceptada por un soldado que la guía a una aparente salvación. La escena se corta a negro y sobre la oscuridad aparece el texto final: "TERESA NUNCA VOLVIÓ A CASA."</p></div><h4 class="script-section-label">Personajes</h4><div class="script-character-list"><p>TERESA (49 años) - Liberada</p><p>SOLDADO (27 años) - Rescatista</p></div><h4 class="script-section-label">Diálogo</h4><div class="script-dialogue-wrapper"><div class="script-character-name">SOLDADO</div><div class="script-dialogue">Sigan por acá, somos el ejército nacional, están a salvo.</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" id="inspiracion">
+                <div class="slide-content">
+                    <h2>Inspiración y Referentes</h2>
+                    <div class="inspiration-layout">
+                        <div class="clipping">
+                            <h3>La Lista de Schindler (1993)</h3>
+                            <img src="imagenes/schindlers-list.jpg" alt="Escena en blanco y negro de La Lista de Schindler">
+                            <p>La dirección de Spielberg fue un pilar en el tono y la estética. Adoptamos su poderosa paleta en blanco y negro para reflejar la crudeza de un evento histórico y doloroso. La musicalización fue clave: nos inspiramos en cómo John Williams usó el violín como una voz sobria y casi "amorosa" que contrasta con el horror. Por esta razón, decidimos usar como fondo "Beethoven: Violin Romance No. 2 in F Major, Op. 50". Esta pieza genera un profundo contraste entre la armonía y tranquilidad de la sinfonía y el caos de los sonidos que realmente narran la historia. Creemos que esta fricción es poderosa: en lugar de subrayar la violencia, la música la envuelve en una capa de normalidad trágica, haciendo la experiencia más sobrecogedora. El diseño sonoro fue el otro pilar fundamental: el audio de un partido de Millonarios vs. Unión Magdalena, la respiración agitada, los latidos, el tic tac de un reloj y los disparos fuera de campo contaron la historia que la cámara no necesitaba mostrar.</p>
+                        </div>
+                        <div class="clipping">
+                            <h3>Vaca y Pollito (1997)</h3>
+                            <img src="imagenes/cow-and-chicken.jpg" alt="Piernas de los padres en la serie Vaca y Pollito">
+                            <p>Aunque parezca inusual, la mayor inspiración para la narrativa visual vino de esta serie animada. La regla creativa de nunca mostrar los rostros de los padres, limitando su presencia a un par de piernas, se convirtió en el eje central de nuestro relato. Adaptamos esta técnica para enfocar la cámara exclusivamente en los pies de Teresa y de quienes la rodean. Este recurso nos permitió lograr varios objetivos: primero, universalizar su historia al no atarla a un rostro específico. Segundo, obligar al espectador a concentrarse en los detalles sonoros y en el lenguaje corporal de los pies (miedo, prisa, duda). Y, finalmente, simbolizar su recorrido anónimo y vulnerable a través del caos, donde la identidad se pierde y solo queda el rastro de su paso.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" id="diseno-sonoro">
+                <div class="slide-content">
+                    <h2>Diseño Sonoro</h2>
+                    <div class="sound-layout-container">
+                        <div class="sound-concept">
+                            <p>En clase vimos el concepto de <strong>música anempática</strong>: es aquella música que se muestra indiferente a lo que pasa en la escena, creando un fuerte contraste. Usamos "Beethoven: Violin Romance No. 2" con esa intención. Su melodía calmada y bonita choca con los sonidos del caos y la violencia. Este choque no suaviza el horror, al contrario, lo hace sentir más fuerte, porque nos recuerda la paz que fue violentamente interrumpida.</p>
+                        </div>
+                        <div class="sound-scene-grid">
+                            <div class="sound-scene">
+                                <h3 class="sound-scene-title">Escena 1: La Cafetería</h3>
+                                <ul class="sound-list-items">
+                                    <li>Sonido ambiente de la cafetería</li>
+                                    <li>Tiros de fusil</li>
+                                    <li>Plato y pocillo rompiéndose</li>
+                                </ul>
+                                <p class="sound-scene-desc">Muestra cómo un día normal en la cafetería se rompe de repente con la violencia de los disparos.</p>
                             </div>
-                            <h4 class="script-section-label personajes-label">Personajes</h4>
-                            <div class="script-character-list">
-                                <p>TERESA (49 años) - Liberada</p>
-                                <p>SOLDADO (27 años) - Rescatista</p>
+                            <div class="sound-scene">
+                                <h3 class="sound-scene-title">Escena 2: Buscando la Salida</h3>
+                                <ul class="sound-list-items">
+                                    <li>Respiración agitada</li>
+                                    <li>Latidos del corazón</li>
+                                    <li>Pasos</li>
+                                </ul>
+                                <p class="sound-scene-desc">Nos mete en el pánico de Teresa. Al solo escuchar su cuerpo (respiración, corazón, pasos), sentimos su miedo de forma personal.</p>
                             </div>
-                            <h4 class="script-section-label dialogo-label">Diálogo</h4>
-                            <div class="script-dialogue-wrapper">
-                                <div class="script-character-name">SOLDADO</div><div class="script-dialogue">Sigan por acá, somos el ejército nacional, están a salvo.</div>
+                            <div class="sound-scene">
+                                <h3 class="sound-scene-title">Escena 3: Rehén</h3>
+                                <ul class="sound-list-items">
+                                    <li>Tic tac del reloj</li>
+                                    <li>Transmisión de partido de fútbol</li>
+                                </ul>
+                                <p class="sound-scene-desc">El reloj aumenta la tensión. El partido de fondo crea una ironía: mientras sufren, el mundo sigue como si nada.</p>
+                            </div>
+                            <div class="sound-scene">
+                                <h3 class="sound-scene-title">Escena 4: Retoma</h3>
+                                <ul class="sound-list-items">
+                                    <li>Explosión</li>
+                                    <li>Vidrios rompiéndose</li>
+                                    <li>Disparos</li>
+                                    <li>Arma cargando</li>
+                                    <li>Voz de comandante (efecto radio)</li>
+                                    <li>Tic tac del reloj</li>
+                                </ul>
+                                <p class="sound-scene-desc">Es el caos total de la retoma militar. La mezcla de sonidos de guerra crea una atmósfera de confusión y peligro extremo.</p>
+                            </div>
+                             <div class="sound-scene">
+                                <h3 class="sound-scene-title">Escena 5: Falsa Esperanza</h3>
+                                <ul class="sound-list-items">
+                                    <li>Personas gritando</li>
+                                    <li>Pasos</li>
+                                    <li>Disparos</li>
+                                    <li>Tic tac del reloj</li>
+                                </ul>
+                                <p class="sound-scene-desc">Crea una falsa sensación de rescate. Los gritos son de esperanza, pero los disparos y el reloj nos recuerdan que el peligro no ha terminado.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-             </div>
-        </section>
+            </div>
 
-        <section id="inspiracion">
-            <div class="container">
-                <h2>Inspiración y Referentes</h2>
-                <div class="newspaper-layout">
-                    <div class="clipping">
-                        <h3>La Lista de Schindler (1993)</h3>
-                        <img src="imagenes/schindlers-list.jpg" alt="Escena en blanco y negro de La Lista de Schindler">
-                        <p>
-                            La dirección de Spielberg fue un pilar en el tono y la estética. Adoptamos su poderosa paleta en blanco y negro para reflejar la crudeza de un evento histórico y doloroso. La musicalización fue clave: nos inspiramos en cómo John Williams usó el violín como una voz sobria y casi "amorosa" que contrasta con el horror. Por esta razón, decidimos usar como fondo "Beethoven: Violin Romance No. 2 in F Major, Op. 50". Esta pieza genera un profundo contraste entre la armonía y tranquilidad de la sinfonía y el caos de los sonidos que realmente narran la historia. Creemos que esta fricción es poderosa: en lugar de subrayar la violencia, la música la envuelve en una capa de normalidad trágica, haciendo la experiencia más sobrecogedora. El diseño sonoro fue el otro pilar fundamental: el audio de un partido de Millonarios vs. Unión Magdalena, la respiración agitada, los latidos, el tic tac de un reloj y los disparos fuera de campo contaron la historia que la cámara no necesitaba mostrar.
-                        </p>
-                    </div>
-                    <div class="clipping">
-                        <h3>Vaca y Pollito (1997)</h3>
-                        <img src="imagenes/cow-and-chicken.jpg" alt="Piernas de los padres en la serie Vaca y Pollito">
-                        <p>
-                            Aunque parezca inusual, la mayor inspiración para la narrativa visual vino de esta serie animada. La regla creativa de nunca mostrar los rostros de los padres, limitando su presencia a un par de piernas, se convirtió en el eje central de nuestro relato. Adaptamos esta técnica para enfocar la cámara exclusivamente en los pies de Teresa y de quienes la rodean. Este recurso nos permitió lograr varios objetivos: primero, universalizar su historia al no atarla a un rostro específico. Segundo, obligar al espectador a concentrarse en los detalles sonoros y en el lenguaje corporal de los pies (miedo, prisa, duda). Y, finalmente, simbolizar su recorrido anónimo y vulnerable a través del caos, donde la identidad se pierde y solo queda el rastro de su paso.
-                        </p>
+            <div class="slide" id="filminuto">
+                <div class="slide-content video-slide">
+                    <h2>Filminuto</h2>
+                    <div class="video-wrapper">
+                        <div id="youtube-player"></div>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <section id="filminuto">
-            <div class="container">
-                <h2>Filminuto</h2>
-                <div class="video-wrapper">
-                    <iframe 
-                        id="youtube-player"
-                        width="100%" 
-                        height="auto" 
-                        src="https://www.youtube.com/embed/9jTqmXUx6YY?autoplay=0&modestbranding=1&rel=0&iv_load_policy=3&fs=1" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen
-                    ></iframe>
+            <div class="slide" id="creditos">
+                <div class="slide-content">
+                    <div class="credits-scroll-wrapper">
+                        <div class="credits-section"><h4>Reparto Filminuto</h4>
+                            <p>Teresa: Camila Riaño & Voz en Off William Fonseca con Efecto</p>
+                            <p>Fanny: Voz en Off William Fonseca con Efecto</p>
+                            <p>Guerrillero: Nicolas Barragán & Voz en Off IA con Efecto</p>
+                            <p>Soldado: David Bernal & Voz en Off IA con Efecto</p>
+                            <p>Comandante: Voz en Off William Fonseca con Efecto</p>
+                        </div>
+                        <div class="credits-section"><h4>Equipo de Investigación</h4>
+                            <p>Camila Riaño & Natalia Nieto</p>
+                        </div>
+                        <div class="credits-section"><h4>Guion Literario</h4><p>William Fonseca • David Bernal</p></div>
+                        <div class="credits-section"><h4>Inspiración y Referencia</h4><p>La Lista de Schindler • Vaca y Pollito</p></div>
+                        <div class="credits-section"><h4>Equipo Efectos de Sonido</h4><p>Mariana Silva • Nicolás Barragán • Valentina Valencia</p><p class="sound-list">Disparos • Explosiones • Pasos • Latidos • Tic-tac • Ambiente Cafetería • Gritos • Voz en off • Partido (Millonarios vs. Unión Magdalena) • Vidrios Rotos</p></div>
+                        <div class="credits-section"><h4>Música de Fondo</h4><p>"Beethoven: Violin Romance No. 2 in F Major, Op. 50"</p></div>
+                        <div class="credits-section"><h4>Producción y Edición</h4><p>William Fonseca en CapCut</p></div>
+                    </div>
+                    <div class="homenaje-container">
+                        <img src="imagenes/homenaje.png" alt="Homenaje a los desaparecidos del Palacio de Justicia">
+                        <p class="homenaje-text">En homenaje a los desaparecidos en la toma del Palacio de Justicia.</p>
+                    </div>
+                    <div class="final-logo"><span class="nav-logo-text">EL <span class="large">ZAPATO</span> DE <span class="large">TERESA</span></span></div>
                 </div>
             </div>
-        </section>
 
-    </main>
+        </main>
+    </div>
 
-    <footer>
-        <div class="container">
-            <div class="footer-logo">
-                 <a href="#inicio" class="nav-logo-text">
-                    EL <span class="large">ZAPATO</span> DE <span class="large">TERESA</span>
-                </a>
-            </div>
-            <p>&copy; 2025</p>
-            <p class="project-by">Proyecto realizado por:</p>
-            <p class="integrantes">
-                <span>Camila Riaño</span> •
-                <span>David Bernal</span> •
-                <span>Mariana Silva</span> •
-                <span>Natalia Nieto</span> •
-                <span>Nicolás Barragán</span> •
-                <span>Valentina Valencia</span> •
-                <span>William Fonseca</span>
-            </p>
-        </div>
-    </footer>
+    <nav class="bottom-nav">
+        <a href="#inicio" class="nav-logo-text">
+            EL <span class="large">ZAPATO</span> DE <span class="large">TERESA</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#resena-investigativa">Reseña</a></li>
+            <li><a href="#referencias">Referencias</a></li>
+            <li><a href="#guion-literario">Guion</a></li>
+            <li><a href="#inspiracion">Inspiración</a></li>
+            <li><a href="#diseno-sonoro">Sonido</a></li>
+            <li><a href="#filminuto">Filminuto</a></li>
+            <li><a href="#creditos">Créditos</a></li>
+        </ul>
+        <button id="audio-control" title="Controlar audio">
+            <svg id="icon-unmuted" xmlns="http://www.w.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+            <svg id="icon-muted" xmlns="http://www.w.org/2000/svg" viewBox="0 0 24 24"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
+        </button>
+    </nav>
     
     <audio id="background-audio" loop autoplay>
         <source src="audios/audio_fondo.mp3" type="audio/mpeg">
     </audio>
 
+    <script src="https://www.youtube.com/iframe_api"></script>
     <script src="script.js"></script>
 </body>
 </html>
